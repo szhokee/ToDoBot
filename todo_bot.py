@@ -86,14 +86,12 @@ class TodoBot:
         self.bot.reply_to(message, "Извините, я не понимаю эту команду.")
 
 if __name__ == "__main__":
-    token = "6278169857:AAEwPYtUXxSzRQUQXjYPktI--7KEptTb01E"
+    token = "TOKEN"
     bot = TodoBot(token)
     bot.start()
     
     
     
-
-
 
 
 
@@ -227,7 +225,6 @@ if __name__ == "__main__":
 #     def handle_unknown(self, message):
 #         self.bot.reply_to(message, "Неизвестная команда. Пожалуйста, попробуйте снова.")
 
-# # Создание экземпляра бота и его запуск
 # bot = TodoBot('')
 # bot.start()
 
